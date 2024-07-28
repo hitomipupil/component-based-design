@@ -1,0 +1,15 @@
+.pokemon_item {
+width: 350px;
+height: 400px;
+border: #2a75bb, solid, 2px;
+padding-left: 5px;
+}
+
+.pokemon_id{
+    margin-top: 10px;
+}
+
+.pokemon_name{
+    margin-top: 10px;
+    font-weight: bold;
+}
