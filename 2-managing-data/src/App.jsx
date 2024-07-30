@@ -1,4 +1,5 @@
 import { PokemonForm } from './PokemonForm';
+import { Footer } from './PokemonForm/Footer';
 
 export const App = () => (
   <div className='App'>
@@ -6,5 +7,6 @@ export const App = () => (
       <img src='/assets/header.png' alt='Header pokemon' />
     </header>
     <PokemonForm />
+    <Footer />
   </div>
 );

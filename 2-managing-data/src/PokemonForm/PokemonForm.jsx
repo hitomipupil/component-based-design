@@ -2,12 +2,13 @@ import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Alert from 'react-bootstrap/Alert';
+import { pokemonList } from '../API/pokemonList';
 
 import pikaUrl from './pikachu.webp';
 
 import './PokemonForm.css';
 
-const pokemons = ['Pikachu', 'Bulbazaur', 'Charmander', 'Squirtle'];
+const pokemons = pokemonList.map((a) => a.name);
 
 export const PokemonForm = () => {
   const [value, setValue] = useState('');
